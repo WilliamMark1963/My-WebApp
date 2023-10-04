@@ -1,0 +1,106 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    height: 100vh;
+   background: black url(../Img/bg.jpg) no-repeat fixed left top ;
+   background-size: cover
+}
+.form
+{
+    position: relative;
+    height: 500px;
+    width:670px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border:1px solid #ffff;
+    border-radius: 10px;
+    background-image: linear-gradient(10deg, #00eaffb8, #ffffff);
+}
+.heading
+{
+   margin-right: 20px;
+   padding: 0 5px 0 0;
+    font-size: 5rem;
+    text-align:center;
+    font-weight: bold;
+}
+form
+{
+    position: relative;
+    /* background-color:#ffd3d3b3 ; */
+    height: 100%;
+    width:100%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.form img
+{
+    display: block;
+    height: 130px;
+    width: 130px;
+    margin: 10px auto 5px auto;
+}
+.input-box 
+{ 
+    display:flex;
+    flex-direction: column;
+    padding: 10px 10px 0 10px;
+}
+.input-box b
+{ 
+    position: relative;
+    font-size:1.2em;
+    font-weight: 200;
+    padding: 0 0 3px 0;
+}
+.input-box input
+{
+    border:1px solid #cccccc;
+    font-size: 1em;
+    padding: 10px;
+}
+.rememberme
+{
+    margin: 10px auto 10px auto;
+}
+.rememberme input
+{
+    margin-left: 3px;
+    font-size: .9em;
+}
+
+input[type=submit]
+{
+    width:70%;
+    padding: 5px;
+    margin: 2px auto 2px auto;
+    font-size: .9em;
+    background-color: rgb(255, 255, 255);
+    border:none;
+    outline: none;
+    border-radius: 15px;
+}
+.registar
+{
+    text-align: center;
+    margin-top: 3px;
+}
+
+.registar a
+{
+    text-decoration: none;
+}

@@ -3,27 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/login.css">
     <title>Login</title>
 </head>
 <body>
-    <h3>Welcome, Please Login with your details</h3>
-
-    <form action="" method="post">
-        <img src="Img/login.png" alt="LOGIN" height="80px" width="80px">
-        <br>
-        <b>Username</b>
-        <br>
-        <input type="text" name="txtUsername" placeholder="john@example.com" required>
-        <br>
-        <b>Password</b>
-        <br>
-        <input type="password" name="txtPassword" placeholder="Minimum 15 Characters" required>
-        <br>
-        <input type="checkbox" checked="checked" name="rememberMe" id="">Remember Me
-        <br>
-        <input type="submit" value="submit">
-        <br>
-        <a href="registar.html">New User ? Click Here to registar</a>
-    </form>
+    <div class="form">
+        <div class="heading">
+            <img src="Img/login.png" alt="LOGIN" >
+            <h3>
+                Login
+            </h3>
+        </div>
+        <form action="" method="post">
+            
+        <div class="input-box">
+            <b>Username</b>
+            <input type="text" name="txtUsername" placeholder="john@example.com" required>
+        </div>
+        <div class="input-box">
+            <b>Password</b>
+            <input type="password" name="txtPassword" placeholder="Minimum 15 Characters" required>
+        </div>
+        <div class="rememberme">
+            <input type="checkbox" checked="checked" name="rememberMe" id="">&nbsp;Remember Me
+        </div>
+            <input type="submit" value="submit">
+        <div class="registar">
+            <a href="registar.html">New User ? Click Here to registar</a>
+        </div>
+        </form>
+    </div>
 </body>
 </html>
